@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+/* Header */
+
+.Logo-TXE {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+a {
+    margin-right: 1.5rem;
+}
+
+.container-fluid {
+    background-color: transparent;
+}
+
+.navbar {
+    height: 5rem;
+}
+
+/* Fotos y Titulo */
+
+.foto-logo-container {
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    background-color: lightcyan;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo-largo {
+        height: 6rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+
+    .fotos-container {
+        margin-right: 4rem;
+
+        
+
+        .foto-2 {
+            width: 20rem;
+            border-radius: 30%;
+        }
+    }    
+}
+
+/* Primera Seccion: Sobre Eloy */
+
+
+.primer-texto-container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    border: solid 1px lightblue;
+    border-radius: 1rem;
+    padding: 2rem;
+    
+    .foto-1 {
+        width: 12rem;
+        border-radius: 1rem;                   
+    }
+
+    .text-container {
+        .title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            color:cadetblue;    
+        }
+
+        & p {
+            font-size: 20px;
+            flex-wrap: wrap;
+            font-family: 'Roboto', sans-serif;
+        }        
+    }
+}
