@@ -38,49 +38,128 @@ a {
 
     .fotos-container {
         margin-right: 4rem;
-
-        
-
-        .foto-2 {
-            width: 20rem;
-            border-radius: 30%;
-        }
-    }    
+    }
 }
 
 /* Primera Seccion: Sobre Eloy */
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: cadetblue;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
 
 .primer-texto-container {
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
+    justify-content: center;    
     gap: 3rem;
     border: solid 1px lightblue;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2rem;  
     
     .foto-1 {
         width: 12rem;
-        border-radius: 1rem;                   
-    }
+        border-radius: 1rem;
+    }    
 
     .text-container {
+        justify-content: space-evenly;
+        
+
         .title {
             font-family: 'Roboto', sans-serif;
-            font-size: 25px;
-            color:cadetblue;    
+            font-size: 20px;
+            color: cadetblue;    
+            margin-bottom: 1rem;
+            margin-top: 0rem;        
+        }
+
+        .linea-divisoria {
+            height: 21rem;
+            width: 0.13rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            background-color: cadetblue;
+            border-radius: 1rem;
         }
 
         & p {
-            font-size: 20px;
+            font-size: 12px;
             flex-wrap: wrap;
+            font-family: 'Roboto', sans-serif;            
+        }
+
+        .oracion-final {
             font-family: 'Roboto', sans-serif;
-        }        
+            font-size: 14px;
+            color: cadetblue;
+        }
+    }
+}
+
+/* Segunda Banner: Que es el sindrome de crouzon */
+
+.segundo-texto-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;     
+    border: solid 1px lightblue;
+    border-radius: 1rem;
+    padding: 2rem;  
+    
+    .foto-1 {
+        width: 12rem;
+        border-radius: 1rem;
+    }    
+
+    .text-container {
+        justify-content: space-evenly;
+        
+
+        .title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: cadetblue;    
+            margin-bottom: 1rem;
+            margin-top: 0rem;        
+        }       
+
+        .parrafo-derecho {
+            margin-right: 2.5rem;
+        }
+
+        .linea-divisoria {
+            height: 21rem;
+            width: 0.13rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            background-color: cadetblue;
+            border-radius: 1rem;
+        }
+
+        & p {
+            font-size: 12px;
+            flex-wrap: wrap;
+            font-family: 'Roboto', sans-serif;            
+        }
+
+        .oracion-final {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            color: cadetblue;
+        }
     }
 }
