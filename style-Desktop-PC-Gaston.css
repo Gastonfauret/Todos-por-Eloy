@@ -56,12 +56,12 @@ a {
 .primer-texto-container {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;    
-    gap: 3rem;
+    justify-content:center;    
+    gap: 5rem;
     border: solid 1px lightblue;
     border-radius: 1rem;
     padding: 2rem;  
@@ -93,14 +93,14 @@ a {
         }
 
         & p {
-            font-size: 12px;
+            font-size: 14px;
             flex-wrap: wrap;
             font-family: 'Roboto', sans-serif;            
         }
 
         .oracion-final {
             font-family: 'Roboto', sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             color: cadetblue;
         }
     }
@@ -111,7 +111,7 @@ a {
 .segundo-texto-container {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -139,6 +139,7 @@ a {
 
         .parrafo-derecho {
             margin-right: 2.5rem;
+            
         }
 
         .linea-divisoria {
@@ -151,9 +152,10 @@ a {
         }
 
         & p {
-            font-size: 12px;
+            font-size: 14px;
             flex-wrap: wrap;
-            font-family: 'Roboto', sans-serif;            
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 2.5rem;            
         }
 
         .oracion-final {
