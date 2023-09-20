@@ -165,3 +165,18 @@ a {
         }
     }
 }
+
+/* Tercer Banner: Como Colabrorar? */
+
+.text-container-tercer-banner {
+    & .parrafo-izquierdo {
+        .contenedor-logos {
+            display: flex;
+            width: 50%;
+
+            & img {
+                width: 1rem;
+            }
+        }
+    }
+}

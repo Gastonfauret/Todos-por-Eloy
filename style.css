@@ -60,27 +60,27 @@ a {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     gap: 3rem;
     border: solid 1px lightblue;
     border-radius: 1rem;
-    padding: 2rem;  
-    
+    padding: 2rem;
+
     .foto-1 {
         width: 12rem;
         border-radius: 1rem;
-    }    
+    }
 
     .text-container {
         justify-content: space-evenly;
-        
+
 
         .title {
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
-            color: cadetblue;    
+            color: cadetblue;
             margin-bottom: 1rem;
-            margin-top: 0rem;        
+            margin-top: 0rem;
         }
 
         .linea-divisoria {
@@ -95,7 +95,7 @@ a {
         & p {
             font-size: 12px;
             flex-wrap: wrap;
-            font-family: 'Roboto', sans-serif;            
+            font-family: 'Roboto', sans-serif;
         }
 
         .oracion-final {
@@ -115,27 +115,27 @@ a {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;     
+    justify-content: center;
     border: solid 1px lightblue;
     border-radius: 1rem;
-    padding: 2rem;  
-    
+    padding: 2rem;
+
     .foto-1 {
         width: 12rem;
         border-radius: 1rem;
-    }    
+    }
 
     .text-container {
         justify-content: space-evenly;
-        
+
 
         .title {
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
-            color: cadetblue;    
+            color: cadetblue;
             margin-bottom: 1rem;
-            margin-top: 0rem;        
-        }       
+            margin-top: 0rem;
+        }
 
         .parrafo-derecho {
             margin-right: 2.5rem;
@@ -153,7 +153,7 @@ a {
         & p {
             font-size: 12px;
             flex-wrap: wrap;
-            font-family: 'Roboto', sans-serif;            
+            font-family: 'Roboto', sans-serif;
         }
 
         .oracion-final {
@@ -161,5 +161,112 @@ a {
             font-size: 14px;
             color: cadetblue;
         }
+    }
+}
+
+/* Tercer Banner: Como Colabrorar? */
+
+.tercer-texto-container {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px lightblue;
+    border-radius: 1rem;
+    padding: 2rem;
+
+    .text-container-tercer-banner {
+        display: flex;
+
+        .parrafo-izquierdo {
+            text-align: center;
+            width: 50%;
+
+            .title-transferencia {
+                color: cadetblue;
+                font-size: 16px;
+            }
+
+            & p {
+                flex-wrap: wrap;
+            }
+
+            .contenedor-logos {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: center;
+                gap: 2rem;
+
+                & img {
+                    height: 3rem;
+                }
+            }
+        }
+
+        .linea-divisoria {
+            height: 21rem;
+            width: 0.13rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            background-color: cadetblue;
+            border-radius: 1rem;
+        }
+
+        .parrafo-derecho {
+            text-align: center;
+            flex-wrap: wrap;
+            width: 50%;
+
+            .title-efectivo {
+                color: cadetblue;
+                font-size: 16px;
+            }
+
+            & .imagen-arrow-down {
+                margin-top: 1rem;
+                width: 3.5rem;
+                color: cadetblue;
+
+            }
+        }
+    }
+}
+
+/* Quinto Banner: Contacto */
+
+.primer-texto-container {
+    & .text-container {
+        display: flex;
+
+        & .parrafo-izquierdo {
+            text-align: center;
+            width: 50%;
+
+            & .title-advance {
+                color: cadetblue;
+                font-size: 20px;
+            }
+
+            & p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+            }
+        }
+
+        & .parrafo-centro {
+            text-align: center;
+            width: 50%;
+
+            & p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+            }
+
+            & .btn-whatsapp {
+                
+            }
+        }
+
     }
 }
