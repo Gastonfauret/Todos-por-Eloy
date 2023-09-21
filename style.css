@@ -250,8 +250,31 @@ a {
 
             & p {
                 font-family: 'Roboto', sans-serif;
-                font-size: 14px;
+                font-size: 16px;
             }
+
+            & a {
+                margin-left: auto;
+                margin-right: auto;
+
+                & img {
+                    width: 3rem; 
+                    margin: 1.5rem
+                }
+            }
+
+            & img:hover {
+                cursor: pointer;
+            }
+        }
+
+        & .linea-divisoria {
+            height: 21rem;
+            width: 0.13rem;
+            margin-left: 4rem;
+            margin-right: 4rem;
+            background-color: cadetblue;
+            border-radius: 1rem;
         }
 
         & .parrafo-centro {
@@ -260,13 +283,118 @@ a {
 
             & p {
                 font-family: 'Roboto', sans-serif;
-                font-size: 14px;
+                font-size: 16px;  
             }
 
-            & .btn-whatsapp {
-                
+            & .whatsapp-container {
+                display: flex;
+                width: 70%;
+                height: 2.5rem;
+                background-color: cadetblue;
+                color: white;
+                justify-content: center;
+                border-radius: 10px;
+                gap: 0.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 3rem;
+                padding-left: 1rem;
+
+                & a {
+                    & img {
+                        width: 1.5rem;
+                        margin-top: 0.4rem;
+                    }
+                }
+
+                & p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                }
+
+                .whatsapp-container:hover {
+                    cursor: pointer;
+                }
             }
         }
 
+        & .parrafo-derecho {
+            text-align: center;
+            width: 50%;
+
+            & img {
+                width: 3rem;
+                margin: 1.5rem
+            }
+
+            & .cuenta {
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                margin-top: 2rem;
+                margin-bottom: 4rem;
+            }
+
+            .instagram-container {
+                display: flex;
+                width: 65%;
+                height: 2.5rem;
+                background-color: cadetblue;
+                color: white;
+                justify-content: center;
+                border-radius: 10px;                
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 3rem;
+                padding-left: 3.2rem;
+
+                & a {
+                    & img {
+                        width: 1.5rem;
+                        margin-top: 0.4rem;
+                        margin-left: 0.5rem;
+                    }
+                }
+
+                & p {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 16px;
+                }
+
+                & .instagram-container:hover {
+                    cursor: pointer;
+                }
+            }
+        }
     }
+}
+
+/* Footer */
+
+.tags-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+
+    & .nav-link {
+        color: black;
+    }
+}
+
+.location-container {
+    display: flex;
+    gap: 0.5rem;
+
+    justify-content: center;
+}
+
+.firma {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.firma:hover {
+    color: whitesmoke;
 }
