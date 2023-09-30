@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+/* Header */
+
+.Logo-TXE {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+a {
+    margin-right: 1.5rem;
+}
+
+.container-fluid {
+    background-color: transparent;
+}
+
+.navbar {
+    height: 5rem;
+}
+
+/* Fotos y Titulo */
+
+.foto-logo-container {
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    background-color: lightcyan;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo-largo {
+        height: 6rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+
+    .fotos-container {
+        margin-right: 4rem;
+    }
+}
+
+/* Primera Seccion: Sobre Eloy */
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: cadetblue;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.primer-texto-container {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;    
+    gap: 3rem;
+    border: solid 1px lightblue;
+    border-radius: 1rem;
+    padding: 2rem;  
+    
+    .foto-1 {
+        width: 12rem;
+        border-radius: 1rem;
+    }    
+
+    .text-container {
+        justify-content: space-evenly;
+        
+
+        .title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: cadetblue;    
+            margin-bottom: 1rem;
+            margin-top: 0rem;        
+        }
+
+        .linea-divisoria {
+            height: 21rem;
+            width: 0.13rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            background-color: cadetblue;
+            border-radius: 1rem;
+        }
+
+        & p {
+            font-size: 12px;
+            flex-wrap: wrap;
+            font-family: 'Roboto', sans-serif;            
+        }
+
+        .oracion-final {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            color: cadetblue;
+        }
+    }
+}
+
+/* Segunda Banner: Que es el sindrome de crouzon */
+
+.segundo-texto-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;     
+    border: solid 1px lightblue;
+    border-radius: 1rem;
+    padding: 2rem;  
+    
+    .foto-1 {
+        width: 12rem;
+        border-radius: 1rem;
+    }    
+
+    .text-container {
+        justify-content: space-evenly;
+        
+
+        .title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: cadetblue;    
+            margin-bottom: 1rem;
+            margin-top: 0rem;        
+        }       
+
+        .parrafo-derecho {
+            margin-right: 2.5rem;
+        }
+
+        .linea-divisoria {
+            height: 21rem;
+            width: 0.13rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            background-color: cadetblue;
+            border-radius: 1rem;
+        }
+
+        & p {
+            font-size: 12px;
+            flex-wrap: wrap;
+            font-family: 'Roboto', sans-serif;            
+        }
+
+        .oracion-final {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            color: cadetblue;
+        }
+    }
+}
